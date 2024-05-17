@@ -1,0 +1,119 @@
+
+#canv {
+    background-color: #c8c8e1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 4px #c8c8e1;
+ }
+body{
+    text-align: center;
+    overflow-x: hidden;
+}
+h1{
+    color: midnightblue;
+}
+#hint{
+    color: crimson;
+    font-size: xx-large;
+    font-weight: bolder;
+    display: inline-block;
+}
+span{
+    color:#2249bf;
+    font-size: xx-large;
+    font-weight: bolder;
+    display: inline-block;
+}
+#word{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* .parent{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+} */
+.container{
+    /* display: none; */
+    /* height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background: darkred;
+    visibility: hidden;
+    top: 0px;
+    overflow: hidden; */
+    display: flex;
+    justify-content: center;
+}
+.msge{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background: transparent;
+    background-color: red;
+    /* display: flex; */
+    width: 40%;
+    font-weight: bold;
+    font-size: larger;
+    margin: 15px;
+    color: white;
+    /* justify-content: center; */
+}
+#msge{
+    display: block;
+    margin-top: 0px;
+}
+.won{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+    width: 40%;
+    font-weight: bold;
+    font-size: larger;
+    margin: 15px;
+    color: white;
+}
+#guessed{
+    width: 40%;
+    margin: 80px;
+    margin-top: 100px;
+}
+#press{
+    background-color: steelblue;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 5px;
+    padding-top: 9px;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid steelblue;
+    border-radius: 10px;
+
+
+} 
+.cont{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    /* gap: 40px; */
+} 
+#retry{
+    background-color: darkslategray;
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+    display: none;
+}
+
